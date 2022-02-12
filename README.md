@@ -11,7 +11,9 @@ npm i chord-voicings --save
 ## Usage
 
 ```js
-import { dictionaryVoicing, minTopNoteDiff, lefthand } from 'chord-voicings';
+import voicings from 'chord-voicings';
+
+const { dictionaryVoicing, minTopNoteDiff, lefthand } = voicings;
 
 const getVoicing = (chord, lastVoicing) =>
   dictionaryVoicing({
