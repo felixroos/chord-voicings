@@ -1,5 +1,5 @@
 import { dictionaryVoicing, dictionaryVoicingFinder, lefthand, guidetones, triads } from './dictionaryVoicing';
-import { topNoteDiff } from './topNoteDiff';
+import { minTopNoteDiff } from './minTopNoteDiff';
 import { getBestVoicing } from './getBestVoicing';
 import { tokenizeChord } from './tokenizeChord';
 
@@ -11,5 +11,5 @@ export default {
   lefthand,
   guidetones,
   triads,
-  topNoteDiff,
+  minTopNoteDiff,
 };
